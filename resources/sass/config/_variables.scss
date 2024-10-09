@@ -1,0 +1,37 @@
+$primary: #24375e;
+$secondary: #04aebc;
+$body-bg: #f8f9fa;
+$body-color: #343a40;
+$link-color: $body-color;
+$dark: $body-color;
+$link-hover-color: $body-color;
+
+$link-hover-decoration: none;
+
+$line-height-base: 1.625;
+$font-size-base: 14 / 16 * 1rem;
+$headings-font-family: 'Museo Slab', 'Roboto Slab', Helvetica, Arial, sans-serif;
+$headings-font-weight: 700;
+
+$border-width: 0.125rem;
+$border-color: #212529;
+$input-border-width: 0.125rem;
+$input-border-color: $body-color;
+$custom-control-indicator-border-color: $border-color;
+
+$btn-padding-y: .65em;
+$btn-padding-x: 1.25em;
+
+$btn-padding-y-sm: .5rem;
+$btn-padding-x-sm: .875em;
+
+$btn-font-family: $headings-font-family;
+$btn-font-weight: $headings-font-weight;
+$btn-focus-box-shadow: none;
+
+$table-cell-padding: .75rem;
+
+$pagination-active-bg: $dark;
+$pagination-border-color: $dark;
+$pagination-hover-border-color: $dark;
+$pagination-disabled-border-color: $dark;

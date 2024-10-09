@@ -1,0 +1,53 @@
+.woops {
+  position: relative;
+
+  .planet {
+    max-width: 390px;
+    animation: planet 2s infinite alternate;
+    position: relative;
+    z-index: 5;
+    .stars {
+      animation: sparkle 3s infinite linear;
+    }
+  }
+
+  .astronaut {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    animation: astronaut 8s infinite linear;
+  }
+}
+
+@keyframes astronaut {
+  0% {
+    transform: translate(-50%, -50%) rotate(0) scale(1);
+  }
+  50% {
+    transform: translate(-51%, -49%) rotate(180deg) scale(1.4);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(1);
+  }
+}
+
+@keyframes sparkle {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes planet {
+  0% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(-3px);
+  }
+}

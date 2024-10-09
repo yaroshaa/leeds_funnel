@@ -1,0 +1,36 @@
+.litepicker {
+  --litepickerDayIsInRange: #e9ecef;
+  --litepickerDayIsStartBg: #212529;
+  --litepickerMonthButtonHover: #212529;
+  --litepickerDayColorHover: #212529;
+  --litepickerDayIsEndBg: #212529;
+  --litepickerButtonApplyBg: #212529;
+  --litepickerButtonResetBtnHover: #212529;
+
+  .container__months .month-item-header {
+    padding-top: 0;
+  }
+
+
+  .button-previous-month,
+  .button-next-month {
+    padding: 0;
+    font-size: .9rem;
+
+    svg {
+      display: none;
+    }
+  }
+
+  .button-previous-month {
+    &::before {
+      content: '←';
+    }
+  }
+
+  .button-next-month {
+    &::before {
+      content: '→';
+    }
+  }
+}

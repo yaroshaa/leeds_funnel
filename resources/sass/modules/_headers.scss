@@ -1,0 +1,28 @@
+#app-header {
+  .logo {
+    height: 2.5rem;
+  }
+
+  .nav-link {
+    height: 56/16*1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-right: .5rem;
+      fill: currentColor;
+    }
+
+    &.active {
+      &::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        content: '';
+        border-bottom: 2px solid $secondary;
+      }
+    }
+  }
+}
